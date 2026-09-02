@@ -1,14 +1,1 @@
-﻿{
-  "name": "swastik",
-  "version": "1.0.0",
-  "description": "Swastik - AI Interior & Architectural Visualizer",
-  "main": "server/server.js",
-  "scripts": {
-    "start": "node server/server.js",
-    "build": "npm install --prefix server && npm install --prefix client && npm run build --prefix client",
-    "install:all": "npm install --prefix server && npm install --prefix client"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  }
-}
+{"name":"swastik","version":"1.0.0","description":"Swastik AI Interior Visualizer","scripts":{"start":"node server/server.js","build":"npm install --prefix server && npm install --prefix client && npm run build --prefix client"},"engines":{"node":"20.x"}}

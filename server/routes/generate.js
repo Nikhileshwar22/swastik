@@ -31,7 +31,7 @@ const DEMO_CONCEPTS = [
 ]
 
 function getDemoImages(serverRoot) {
-  const demoDir = path.join(serverRoot, '..', 'public', 'demo-images')
+  const demoDir = path.join(serverRoot, 'demo-images')
   const files = fs.readdirSync(demoDir).filter(f =>
     /\.(png|jpg|jpeg|webp|svg)$/i.test(f)
   )
@@ -88,7 +88,7 @@ router.post(
         additionalRequirements,
       }
 
-      // ── DEMO MODE ──────────────────────────────────────────────────────────
+      // â”€â”€ DEMO MODE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
       if (isDemoMode()) {
         await simulateDelay(3000, 5000)
 
@@ -108,7 +108,7 @@ router.post(
         return res.json({ success: true, concepts, demoMode: true })
       }
 
-      // ── REAL AI MODE ───────────────────────────────────────────────────────
+      // â”€â”€ REAL AI MODE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
       const roomImages = (req.files?.roomImages || []).map(f => ({
         buffer: f.buffer,
         mimetype: f.mimetype,

@@ -1,4 +1,4 @@
-﻿# Environment variables â€” NEVER commit these
+# Environment variables â€” NEVER commit these
 .env
 .env.local
 .env.production
@@ -29,3 +29,4 @@ Thumbs.db
 # Temporary uploads
 server/uploads/
 server/temp/
+/public/

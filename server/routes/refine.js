@@ -6,7 +6,7 @@ const { uploadMixed, handleUploadError } = require('../middleware/upload')
 const { refineImage, isDemoMode } = require('../services/openaiImageService')
 
 function getDemoImages(serverRoot) {
-  const demoDir = path.join(serverRoot, '..', 'public', 'demo-images')
+  const demoDir = path.join(serverRoot, 'demo-images')
   const files = fs.readdirSync(demoDir).filter(f =>
     /\.(png|jpg|jpeg|webp|svg)$/i.test(f)
   )
@@ -31,7 +31,7 @@ router.post(
         })
       }
 
-      // ── DEMO MODE ──────────────────────────────────────────────────────────
+      // â”€â”€ DEMO MODE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
       if (isDemoMode()) {
         await simulateDelay(2500, 4000)
 
@@ -54,7 +54,7 @@ router.post(
         })
       }
 
-      // ── REAL AI MODE ───────────────────────────────────────────────────────
+      // â”€â”€ REAL AI MODE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
       const imageFile = req.files?.image?.[0]
 
       if (!imageFile && !currentImageUrl) {
