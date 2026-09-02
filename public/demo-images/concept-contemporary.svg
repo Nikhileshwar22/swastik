@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 768" width="1024" height="768">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f4ee"/>
+      <stop offset="100%" stop-color="#ede8e0"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c5a97a"/>
+      <stop offset="100%" stop-color="#a88a5a"/>
+    </linearGradient>
+    <linearGradient id="sofaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8b6e52"/>
+      <stop offset="100%" stop-color="#6e5038"/>
+    </linearGradient>
+    <filter id="softShadow">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#00000025"/>
+    </filter>
+  </defs>
+
+  <!-- Wall -->
+  <rect width="1024" height="768" fill="url(#wallGrad)"/>
+
+  <!-- Ceiling line -->
+  <rect x="0" y="0" width="1024" height="6" fill="#d8d0c4"/>
+
+  <!-- Floor -->
+  <polygon points="0,560 1024,500 1024,768 0,768" fill="url(#floorGrad)"/>
+  <!-- Herringbone pattern suggestion -->
+  <line x1="0" y1="600" x2="1024" y2="545" stroke="#b89a60" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="640" x2="1024" y2="590" stroke="#b89a60" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="680" x2="1024" y2="635" stroke="#b89a60" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="720" x2="1024" y2="680" stroke="#b89a60" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Feature wall with earth tones texture -->
+  <rect x="0" y="0" width="320" height="560" fill="#c8a87a" opacity="0.25"/>
+  <rect x="10" y="20" width="8" height="520" fill="#b89860" opacity="0.15"/>
+  <rect x="30" y="20" width="8" height="520" fill="#b89860" opacity="0.15"/>
+  <rect x="50" y="20" width="8" height="520" fill="#b89860" opacity="0.15"/>
+
+  <!-- Large window center -->
+  <rect x="350" y="60" width="380" height="450" fill="#d0e4f0" opacity="0.5" rx="2"/>
+  <rect x="350" y="60" width="380" height="450" fill="#e8eeF4" opacity="0.3"/>
+  <!-- Window frame -->
+  <rect x="350" y="60" width="380" height="6" fill="#b0a090"/>
+  <rect x="350" y="504" width="380" height="6" fill="#b0a090"/>
+  <rect x="350" y="60" width="6" height="450" fill="#b0a090"/>
+  <rect x="724" y="60" width="6" height="450" fill="#b0a090"/>
+  <rect x="536" y="60" width="4" height="450" fill="#b0a090" opacity="0.5"/>
+  <!-- Curtains -->
+  <rect x="295" y="40" width="80" height="490" fill="#d4c8b4" opacity="0.8" rx="2"/>
+  <rect x="710" y="40" width="80" height="490" fill="#d4c8b4" opacity="0.8" rx="2"/>
+  <!-- Curtain folds -->
+  <line x1="310" y1="40" x2="310" y2="530" stroke="#c4b8a4" stroke-width="2" opacity="0.5"/>
+  <line x1="330" y1="40" x2="330" y2="530" stroke="#c4b8a4" stroke-width="2" opacity="0.5"/>
+  <line x1="350" y1="40" x2="350" y2="530" stroke="#c4b8a4" stroke-width="2" opacity="0.5"/>
+  <line x1="722" y1="40" x2="722" y2="530" stroke="#c4b8a4" stroke-width="2" opacity="0.5"/>
+  <line x1="742" y1="40" x2="742" y2="530" stroke="#c4b8a4" stroke-width="2" opacity="0.5"/>
+  <line x1="762" y1="40" x2="762" y2="530" stroke="#c4b8a4" stroke-width="2" opacity="0.5"/>
+
+  <!-- Light beam -->
+  <polygon points="356,66 724,66 820,768 260,768" fill="#fff8e0" opacity="0.06"/>
+
+  <!-- L-shaped sofa -->
+  <!-- Main section -->
+  <rect x="180" y="440" width="520" height="130" fill="url(#sofaGrad)" rx="6" filter="url(#softShadow)"/>
+  <rect x="180" y="410" width="520" height="38" fill="#9a7e62" rx="5"/>
+  <!-- Side section -->
+  <rect x="680" y="370" width="130" height="200" fill="url(#sofaGrad)" rx="6"/>
+  <rect x="680" y="370" width="130" height="38" fill="#9a7e62" rx="5"/>
+  <!-- Cushions on main -->
+  <rect x="195" y="415" width="110" height="30" fill="#b09070" rx="3" opacity="0.8"/>
+  <rect x="315" y="415" width="110" height="30" fill="#b09070" rx="3" opacity="0.8"/>
+  <rect x="435" y="415" width="110" height="30" fill="#b09070" rx="3" opacity="0.8"/>
+  <rect x="555" y="415" width="130" height="30" fill="#b09070" rx="3" opacity="0.8"/>
+  <!-- Sofa legs -->
+  <rect x="200" y="568" width="12" height="10" fill="#5a4028" rx="1"/>
+  <rect x="676" y="568" width="12" height="10" fill="#5a4028" rx="1"/>
+  <!-- Throw pillow on sofa -->
+  <rect x="490" y="418" width="50" height="28" fill="#c0503040" rx="3"/>
+  <line x1="515" y1="418" x2="515" y2="446" stroke="#c06040" stroke-width="1" opacity="0.5"/>
+
+  <!-- Round coffee table -->
+  <ellipse cx="400" cy="565" rx="110" ry="40" fill="#d8c8a8" filter="url(#softShadow)"/>
+  <ellipse cx="400" cy="555" rx="110" ry="35" fill="#e0d0b0"/>
+  <!-- Table legs -->
+  <rect x="385" y="580" width="8" height="25" fill="#b89860" rx="2"/>
+  <rect x="408" y="580" width="8" height="25" fill="#b89860" rx="2"/>
+  <!-- Items on table -->
+  <ellipse cx="380" cy="548" rx="18" ry="6" fill="#a07840" opacity="0.7"/>
+  <ellipse cx="420" cy="552" rx="12" ry="4" fill="#c8b090" opacity="0.8"/>
+
+  <!-- Side table with lamp -->
+  <rect x="100" y="490" width="70" height="80" fill="#b89a70" rx="3" filter="url(#softShadow)"/>
+  <!-- Lamp -->
+  <rect x="128" y="430" width="14" height="60" fill="#8a7050"/>
+  <polygon points="118,432 156,432 148,460 126,460" fill="#e8d8b0" opacity="0.9"/>
+  <!-- Lamp glow -->
+  <ellipse cx="135" cy="432" rx="40" ry="15" fill="#ffe8a0" opacity="0.2"/>
+
+  <!-- Artwork / wall panel left -->
+  <rect x="40" y="120" width="200" height="260" fill="#d4c4a4" stroke="#b8a880" stroke-width="2" rx="2"/>
+  <rect x="50" y="130" width="180" height="240" fill="#c8b898" opacity="0.6"/>
+  <!-- Abstract art -->
+  <ellipse cx="140" cy="250" rx="60" ry="80" fill="#8b6a3a" opacity="0.5"/>
+  <rect x="90" y="200" width="100" height="8" fill="#c8a860" opacity="0.6"/>
+  <rect x="80" y="240" width="120" height="4" fill="#a07830" opacity="0.4"/>
+  <ellipse cx="140" cy="200" rx="25" ry="30" fill="#d4a850" opacity="0.4"/>
+
+  <!-- Shelving unit right wall -->
+  <rect x="800" y="80" width="180" height="430" fill="#2c2420" rx="2"/>
+  <rect x="808" y="100" width="164" height="60" fill="#1a1210"/>
+  <rect x="808" y="180" width="164" height="60" fill="#1a1210"/>
+  <rect x="808" y="260" width="164" height="60" fill="#1a1210"/>
+  <rect x="808" y="340" width="164" height="60" fill="#1a1210"/>
+  <!-- Shelf items -->
+  <rect x="820" y="105" width="30" height="50" fill="#8b6a3a" rx="1"/>
+  <rect x="855" y="110" width="25" height="45" fill="#6b8a4a" rx="1"/>
+  <rect x="884" y="112" width="20" height="43" fill="#4a6a8a" rx="1"/>
+  <ellipse cx="940" cy="125" rx="15" ry="20" fill="#b89060" opacity="0.7"/>
+
+  <!-- Plant in corner -->
+  <rect x="920" y="460" width="30" height="100" fill="#5a4020" rx="3"/>
+  <ellipse cx="935" cy="450" rx="55" ry="70" fill="#2a6020" opacity="0.7"/>
+  <ellipse cx="910" cy="420" rx="38" ry="55" fill="#3a7030" opacity="0.6"/>
+  <ellipse cx="960" cy="430" rx="35" ry="50" fill="#2a6020" opacity="0.6"/>
+
+  <!-- Label -->
+  <rect x="20" y="720" width="240" height="36" fill="#1c1917" opacity="0.75" rx="4"/>
+  <text x="140" y="743" font-family="Georgia, serif" font-size="13" text-anchor="middle" fill="#f5f0e8" font-weight="400" letter-spacing="2">CONTEMPORARY EARTH TONES</text>
+</svg>

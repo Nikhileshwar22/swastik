@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 768" width="1024" height="768">
+  <defs>
+    <linearGradient id="bwall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2ede6"/>
+      <stop offset="100%" stop-color="#e8e0d4"/>
+    </linearGradient>
+    <linearGradient id="bfloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b8a080"/>
+      <stop offset="100%" stop-color="#9a8060"/>
+    </linearGradient>
+    <linearGradient id="headboard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3828"/>
+      <stop offset="100%" stop-color="#2e2018"/>
+    </linearGradient>
+    <linearGradient id="bedding" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f0e8"/>
+      <stop offset="100%" stop-color="#e8e0d0"/>
+    </linearGradient>
+    <filter id="bshadow">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#00000020"/>
+    </filter>
+  </defs>
+
+  <!-- Warm cream wall -->
+  <rect width="1024" height="768" fill="url(#bwall)"/>
+
+  <!-- Subtle wall paneling -->
+  <rect x="0" y="0" width="1024" height="560" fill="#f2ede6"/>
+  <rect x="80" y="120" width="2" height="420" fill="#d8d0c4" opacity="0.6"/>
+  <rect x="160" y="120" width="2" height="420" fill="#d8d0c4" opacity="0.6"/>
+  <rect x="862" y="120" width="2" height="420" fill="#d8d0c4" opacity="0.6"/>
+  <rect x="942" y="120" width="2" height="420" fill="#d8d0c4" opacity="0.6"/>
+  <rect x="80" y="120" width="82" height="2" fill="#d8d0c4" opacity="0.6"/>
+  <rect x="80" y="540" width="82" height="2" fill="#d8d0c4" opacity="0.6"/>
+  <rect x="862" y="120" width="82" height="2" fill="#d8d0c4" opacity="0.6"/>
+  <rect x="862" y="540" width="82" height="2" fill="#d8d0c4" opacity="0.6"/>
+
+  <!-- Floor -->
+  <polygon points="0,530 1024,485 1024,768 0,768" fill="url(#bfloor)"/>
+  <line x1="0" y1="570" x2="1024" y2="528" stroke="#9a7a50" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="610" x2="1024" y2="572" stroke="#9a7a50" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="650" x2="1024" y2="615" stroke="#9a7a50" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="690" x2="1024" y2="659" stroke="#9a7a50" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="730" x2="1024" y2="703" stroke="#9a7a50" stroke-width="1" opacity="0.5"/>
+
+  <!-- Feature bedhead wall - darker shade -->
+  <rect x="200" y="0" width="624" height="550" fill="#d4c8b8" opacity="0.35"/>
+
+  <!-- Window right -->
+  <rect x="820" y="60" width="180" height="450" fill="#d0e4f0" opacity="0.5" rx="1"/>
+  <rect x="820" y="60" width="4" height="450" fill="#b8a890"/>
+  <rect x="996" y="60" width="4" height="450" fill="#b8a890"/>
+  <rect x="820" y="60" width="184" height="4" fill="#b8a890"/>
+  <rect x="820" y="506" width="184" height="4" fill="#b8a890"/>
+  <rect x="908" y="60" width="2" height="450" fill="#b8a890" opacity="0.4"/>
+
+  <!-- Curtain -->
+  <rect x="780" y="40" width="70" height="490" fill="#e0d8cc" opacity="0.85"/>
+  <line x1="795" y1="40" x2="795" y2="530" stroke="#d0c8bc" stroke-width="2" opacity="0.6"/>
+  <line x1="815" y1="40" x2="815" y2="530" stroke="#d0c8bc" stroke-width="2" opacity="0.6"/>
+
+  <!-- Bed frame & headboard -->
+  <rect x="212" y="230" width="600" height="320" fill="#6a5040" rx="4" filter="url(#bshadow)"/>
+  <!-- Headboard -->
+  <rect x="212" y="140" width="600" height="200" fill="url(#headboard)" rx="6"/>
+  <!-- Headboard paneling -->
+  <rect x="226" y="155" width="185" height="160" fill="#3a2820" rx="3" opacity="0.6"/>
+  <rect x="419" y="155" width="185" height="160" fill="#3a2820" rx="3" opacity="0.6"/>
+  <rect x="612" y="155" width="185" height="160" fill="#3a2820" rx="3" opacity="0.6"/>
+  <!-- Brass inlay on headboard -->
+  <rect x="226" y="155" width="185" height="2" fill="#c89030" opacity="0.6"/>
+  <rect x="419" y="155" width="185" height="2" fill="#c89030" opacity="0.6"/>
+  <rect x="612" y="155" width="185" height="2" fill="#c89030" opacity="0.6"/>
+
+  <!-- Mattress/bedding -->
+  <rect x="220" y="300" width="584" height="240" fill="url(#bedding)" rx="3"/>
+  <!-- Duvet fold -->
+  <rect x="220" y="300" width="584" height="80" fill="#ede8e0" rx="3" opacity="0.8"/>
+  <line x1="220" y1="378" x2="804" y2="378" stroke="#d8d0c4" stroke-width="1"/>
+  <!-- Pillows -->
+  <rect x="240" y="315" width="160" height="100" fill="#f8f4ee" rx="4" opacity="0.95"/>
+  <rect x="250" y="320" width="140" height="90" fill="#f5f0e8" rx="3"/>
+  <rect x="414" y="315" width="176" height="100" fill="#f8f4ee" rx="4" opacity="0.95"/>
+  <rect x="424" y="320" width="156" height="90" fill="#f5f0e8" rx="3"/>
+  <rect x="594" y="315" width="160" height="100" fill="#f8f4ee" rx="4" opacity="0.95"/>
+  <rect x="604" y="320" width="140" height="90" fill="#f5f0e8" rx="3"/>
+  <!-- Decorative cushion -->
+  <rect x="450" y="380" width="120" height="80" fill="#c8b090" rx="3" opacity="0.8"/>
+  <rect x="460" y="390" width="100" height="60" fill="#d0b8a0" rx="2"/>
+  <!-- Bed legs -->
+  <rect x="226" y="548" width="16" height="20" fill="#4a3828"/>
+  <rect x="782" y="548" width="16" height="20" fill="#4a3828"/>
+
+  <!-- Nightstands -->
+  <rect x="80" y="360" width="120" height="175" fill="#5a4030" rx="3" filter="url(#bshadow)"/>
+  <rect x="824" y="360" width="120" height="175" fill="#5a4030" rx="3" filter="url(#bshadow)"/>
+  <!-- Drawer lines -->
+  <line x1="80" y1="425" x2="200" y2="425" stroke="#4a3028" stroke-width="1.5"/>
+  <line x1="80" y1="480" x2="200" y2="480" stroke="#4a3028" stroke-width="1.5"/>
+  <line x1="824" y1="425" x2="944" y2="425" stroke="#4a3028" stroke-width="1.5"/>
+  <line x1="824" y1="480" x2="944" y2="480" stroke="#4a3028" stroke-width="1.5"/>
+  <!-- Drawer pulls - brass -->
+  <circle cx="140" cy="445" r="5" fill="#c89030"/>
+  <circle cx="140" cy="500" r="5" fill="#c89030"/>
+  <circle cx="884" cy="445" r="5" fill="#c89030"/>
+  <circle cx="884" cy="500" r="5" fill="#c89030"/>
+
+  <!-- Bedside lamps -->
+  <!-- Left lamp -->
+  <rect x="123" y="300" width="14" height="62" fill="#c89030" rx="1"/>
+  <polygon points="110,302 150,302 162,258 98,258" fill="#f0e8d0" opacity="0.9"/>
+  <ellipse cx="130" cy="302" rx="50" ry="16" fill="#ffe090" opacity="0.18"/>
+  <!-- Right lamp -->
+  <rect x="887" y="300" width="14" height="62" fill="#c89030" rx="1"/>
+  <polygon points="874,302 914,302 926,258 862,258" fill="#f0e8d0" opacity="0.9"/>
+  <ellipse cx="894" cy="302" rx="50" ry="16" fill="#ffe090" opacity="0.18"/>
+
+  <!-- Ceiling pendant -->
+  <line x1="512" y1="0" x2="512" y2="80" stroke="#a09080" stroke-width="2"/>
+  <ellipse cx="512" cy="90" rx="24" ry="14" fill="#d4a040"/>
+  <ellipse cx="512" cy="98" rx="18" ry="8" fill="#e8b860" opacity="0.7"/>
+  <ellipse cx="512" cy="108" rx="50" ry="18" fill="#ffe090" opacity="0.15"/>
+
+  <!-- Cove lighting warm glow at top -->
+  <rect x="0" y="0" width="1024" height="25" fill="#ffe0a0" opacity="0.12"/>
+
+  <!-- Label -->
+  <rect x="20" y="720" width="200" height="36" fill="#1c1917" opacity="0.75" rx="4"/>
+  <text x="120" y="743" font-family="Georgia, serif" font-size="13" text-anchor="middle" fill="#f5f0e8" font-weight="400" letter-spacing="2">LUXURY BEDROOM</text>
+</svg>

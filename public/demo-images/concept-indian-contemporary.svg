@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 768" width="1024" height="768">
+  <defs>
+    <linearGradient id="wg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5ede0"/>
+      <stop offset="100%" stop-color="#ead8c0"/>
+    </linearGradient>
+    <linearGradient id="fg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a87848"/>
+      <stop offset="100%" stop-color="#885a28"/>
+    </linearGradient>
+    <linearGradient id="accentWall" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c8703a"/>
+      <stop offset="100%" stop-color="#b86030"/>
+    </linearGradient>
+    <filter id="ds2">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#00000028"/>
+    </filter>
+  </defs>
+
+  <!-- Warm cream wall -->
+  <rect width="1024" height="768" fill="url(#wg2)"/>
+
+  <!-- Feature accent wall - terracotta/saffron -->
+  <rect x="0" y="0" width="280" height="580" fill="url(#accentWall)" opacity="0.8"/>
+  <!-- Jali-inspired pattern on accent wall -->
+  <g opacity="0.15" fill="#fff">
+    <rect x="20" y="30" width="12" height="12" rx="2"/>
+    <rect x="50" y="30" width="12" height="12" rx="2"/>
+    <rect x="80" y="30" width="12" height="12" rx="2"/>
+    <rect x="110" y="30" width="12" height="12" rx="2"/>
+    <rect x="140" y="30" width="12" height="12" rx="2"/>
+    <rect x="170" y="30" width="12" height="12" rx="2"/>
+    <rect x="200" y="30" width="12" height="12" rx="2"/>
+    <rect x="230" y="30" width="12" height="12" rx="2"/>
+    <rect x="35" y="55" width="12" height="12" rx="2"/>
+    <rect x="65" y="55" width="12" height="12" rx="2"/>
+    <rect x="95" y="55" width="12" height="12" rx="2"/>
+    <rect x="125" y="55" width="12" height="12" rx="2"/>
+    <rect x="155" y="55" width="12" height="12" rx="2"/>
+    <rect x="185" y="55" width="12" height="12" rx="2"/>
+    <rect x="215" y="55" width="12" height="12" rx="2"/>
+    <rect x="245" y="55" width="12" height="12" rx="2"/>
+    <rect x="20" y="80" width="12" height="12" rx="2"/>
+    <rect x="50" y="80" width="12" height="12" rx="2"/>
+    <rect x="80" y="80" width="12" height="12" rx="2"/>
+    <rect x="110" y="80" width="12" height="12" rx="2"/>
+    <rect x="140" y="80" width="12" height="12" rx="2"/>
+    <rect x="170" y="80" width="12" height="12" rx="2"/>
+    <rect x="200" y="80" width="12" height="12" rx="2"/>
+    <rect x="230" y="80" width="12" height="12" rx="2"/>
+  </g>
+
+  <!-- Teak wood floor -->
+  <polygon points="0,545 1024,495 1024,768 0,768" fill="url(#fg2)"/>
+  <line x1="0" y1="590" x2="1024" y2="545" stroke="#784818" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="635" x2="1024" y2="593" stroke="#784818" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="680" x2="1024" y2="643" stroke="#784818" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="725" x2="1024" y2="694" stroke="#784818" stroke-width="1" opacity="0.5"/>
+  <line x1="160" y1="545" x2="160" y2="768" stroke="#784818" stroke-width="1" opacity="0.3"/>
+  <line x1="320" y1="545" x2="320" y2="768" stroke="#784818" stroke-width="1" opacity="0.3"/>
+  <line x1="480" y1="545" x2="480" y2="768" stroke="#784818" stroke-width="1" opacity="0.3"/>
+  <line x1="640" y1="545" x2="640" y2="768" stroke="#784818" stroke-width="1" opacity="0.3"/>
+  <line x1="800" y1="545" x2="800" y2="768" stroke="#784818" stroke-width="1" opacity="0.3"/>
+  <line x1="960" y1="545" x2="960" y2="768" stroke="#784818" stroke-width="1" opacity="0.3"/>
+
+  <!-- Large arch window -->
+  <rect x="680" y="40" width="300" height="470" fill="#c8dce8" opacity="0.5" rx="2"/>
+  <rect x="680" y="40" width="300" height="200" fill="#c8dce8" opacity="0.3"/>
+  <!-- Arch top -->
+  <ellipse cx="830" cy="40" rx="150" ry="60" fill="#c8dce8" opacity="0.5"/>
+  <!-- Window frame -->
+  <rect x="680" y="40" width="6" height="470" fill="#9a6838"/>
+  <rect x="974" y="40" width="6" height="470" fill="#9a6838"/>
+  <rect x="680" y="504" width="300" height="6" fill="#9a6838"/>
+  <rect x="825" y="40" width="4" height="470" fill="#9a6838" opacity="0.5"/>
+  <!-- Arch frame -->
+  <path d="M 680 40 Q 830 -40 980 40" fill="none" stroke="#9a6838" stroke-width="6"/>
+  <!-- Light beam -->
+  <polygon points="686,46 974,46 1024,768 634,768" fill="#fff8e8" opacity="0.07"/>
+
+  <!-- Warm wall light sconce left -->
+  <rect x="295" y="200" width="30" height="60" fill="#c8904a" rx="3"/>
+  <polygon points="295,200 325,200 340,160 280,160" fill="#e8b060" opacity="0.9"/>
+  <ellipse cx="310" cy="200" rx="40" ry="15" fill="#ffe090" opacity="0.25"/>
+
+  <!-- Contemporary sofa with Indian fabric texture -->
+  <rect x="200" y="440" width="500" height="120" fill="#7a4820" rx="6" filter="url(#ds2)"/>
+  <rect x="200" y="408" width="500" height="40" fill="#8a5830" rx="5"/>
+  <!-- Cushion back -->
+  <rect x="215" y="413" width="130" height="32" fill="#9a6838" rx="3" opacity="0.9"/>
+  <rect x="355" y="413" width="130" height="32" fill="#9a6838" rx="3" opacity="0.9"/>
+  <rect x="495" y="413" width="130" height="32" fill="#9a6838" rx="3" opacity="0.9"/>
+  <rect x="635" y="413" width="50" height="32" fill="#9a6838" rx="3" opacity="0.9"/>
+  <!-- Seat cushions -->
+  <rect x="215" y="452" width="155" height="88" fill="#8a5228" rx="3" opacity="0.8"/>
+  <rect x="378" y="452" width="155" height="88" fill="#8a5228" rx="3" opacity="0.8"/>
+  <rect x="541" y="452" width="147" height="88" fill="#8a5228" rx="3" opacity="0.8"/>
+  <!-- Arms -->
+  <rect x="190" y="420" width="26" height="140" fill="#6a3818" rx="4"/>
+  <rect x="692" y="420" width="26" height="140" fill="#6a3818" rx="4"/>
+  <!-- Decorative throw pillow - patterned -->
+  <rect x="430" y="416" width="48" height="30" fill="#c8503080" rx="3"/>
+  <line x1="454" y1="416" x2="454" y2="446" stroke="#e06040" stroke-width="1" opacity="0.6"/>
+  <line x1="430" y1="431" x2="478" y2="431" stroke="#e06040" stroke-width="1" opacity="0.6"/>
+
+  <!-- Brass coffee table -->
+  <ellipse cx="440" cy="560" rx="130" ry="45" fill="#c8903840" filter="url(#ds2)"/>
+  <ellipse cx="440" cy="548" rx="128" ry="42" fill="#d4a048"/>
+  <ellipse cx="440" cy="548" rx="120" ry="36" fill="#c89030"/>
+  <!-- Table legs - brass hairpin -->
+  <line x1="360" y1="580" x2="350" y2="610" stroke="#c8903860" stroke-width="3"/>
+  <line x1="520" y1="580" x2="530" y2="610" stroke="#c8903860" stroke-width="3"/>
+  <line x1="440" y1="590" x2="440" y2="618" stroke="#c8903860" stroke-width="3"/>
+
+  <!-- Decorative artifacts on coffee table -->
+  <rect x="380" y="515" width="16" height="30" fill="#c8803080" rx="4"/>
+  <ellipse cx="388" cy="515" rx="10" ry="4" fill="#d89038"/>
+  <ellipse cx="480" cy="530" rx="20" ry="8" fill="#b87830" opacity="0.8"/>
+
+  <!-- Standing lamp - brass floor lamp -->
+  <rect x="125" y="300" width="6" height="240" fill="#c89030" rx="2"/>
+  <ellipse cx="128" cy="300" rx="35" ry="15" fill="#e8b060" opacity="0.9"/>
+  <ellipse cx="128" cy="310" rx="45" ry="20" fill="#ffe090" opacity="0.15"/>
+  <rect x="108" y="535" width="40" height="8" fill="#c89030" rx="2"/>
+
+  <!-- Ceilings cove with warm lights -->
+  <rect x="0" y="0" width="1024" height="40" fill="#ffe0a0" opacity="0.12"/>
+
+  <!-- Hanging pendant - traditional inspired -->
+  <line x1="512" y1="0" x2="512" y2="90" stroke="#c89030" stroke-width="2"/>
+  <polygon points="490,90 534,90 548,130 476,130" fill="#d4a040"/>
+  <rect x="476" y="128" width="72" height="6" fill="#c89030" rx="1"/>
+  <ellipse cx="512" cy="135" rx="40" ry="10" fill="#ffe090" opacity="0.2"/>
+
+  <!-- Wall art - Indian motif -->
+  <rect x="300" y="100" width="320" height="280" fill="#ead8c0" stroke="#c8903860" stroke-width="3" rx="3"/>
+  <rect x="310" y="110" width="300" height="260" fill="#e0ccb0" opacity="0.6"/>
+  <!-- Mandala-ish circular art -->
+  <circle cx="460" cy="240" r="90" fill="none" stroke="#c8903880" stroke-width="2"/>
+  <circle cx="460" cy="240" r="70" fill="none" stroke="#c8903880" stroke-width="1.5"/>
+  <circle cx="460" cy="240" r="50" fill="none" stroke="#c8903880" stroke-width="1"/>
+  <circle cx="460" cy="240" r="25" fill="#d4a04050"/>
+  <!-- Petal shapes -->
+  <ellipse cx="460" cy="175" rx="12" ry="25" fill="#c8903870"/>
+  <ellipse cx="460" cy="305" rx="12" ry="25" fill="#c8903870"/>
+  <ellipse cx="395" cy="240" rx="25" ry="12" fill="#c8903870"/>
+  <ellipse cx="525" cy="240" rx="25" ry="12" fill="#c8903870"/>
+
+  <!-- Label -->
+  <rect x="20" y="720" width="270" height="36" fill="#1c1917" opacity="0.75" rx="4"/>
+  <text x="155" y="743" font-family="Georgia, serif" font-size="13" text-anchor="middle" fill="#f5f0e8" font-weight="400" letter-spacing="2">MODERN INDIAN CONTEMPORARY</text>
+</svg>
